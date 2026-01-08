@@ -4,6 +4,19 @@
 #include <string>
 using namespace std;
 
+
+// ???? ALERT ???? 
+// If you got the Code From Git Hub 
+// Then For Games to Run 
+// Pls Change The Line 245
+//system(("\"D:\\Gaming_Arcade_OS\\games\\" + games[realIndex] + ".exe\"").c_str());
+
+// Change the Path "D:\\Gaming_Arcade_OS\\games\\"
+// To The Path Where You Have the Games Stored
+//An Example Change Whould Look Like This
+//system(("\"C:\\Users\\YourName\\Documents\\ArcadeGames\\" + games[realIndex] + ".exe\"").c_str());
+//Thank You :)
+
 // ===== FILES =====
 const string G_CODES_FILE = "gamer_codes.txt";
 const string A_CODES_FILE = "admin_codes.txt";
