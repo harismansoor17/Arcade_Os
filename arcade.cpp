@@ -13,9 +13,15 @@ using namespace std;
 
 // Change the Path "D:\\Gaming_Arcade_OS\\games\\"
 // To The Path Where You Have the Games Stored
-//An Example Change Whould Look Like This
-//system(("\"C:\\Users\\YourName\\Documents\\ArcadeGames\\" + games[realIndex] + ".exe\"").c_str());
+// An Example Change Whould Look Like This
+// system(("\"C:\\Users\\YourName\\Documents\\ArcadeGames\\" + games[realIndex] + ".exe\"").c_str());
+
+// Here Are the Codes:
+// Gamer Codes: 1, 2, 3
+// Admin Codes: 1122, 3000, 3130
+
 //Thank You :)
+
 
 // ===== FILES =====
 const string G_CODES_FILE = "gamer_codes.txt";
@@ -283,6 +289,7 @@ int main() {
     }
     else {
         cout << "ACCESS DENIED!\n";
+        cout << "Psst.. Loook in The Gamer Code File or Admin Codes File or Just see The top comment in your Code Editor\n";
         system("pause");
         return 0;   // ?? EXIT PROGRAM
     }
